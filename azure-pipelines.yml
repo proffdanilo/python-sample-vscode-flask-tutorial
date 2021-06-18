@@ -6,6 +6,11 @@
 trigger:
 - master
 
+parameters:
+- name: repoName
+  displayName: Repository Name
+  type: string
+
 pool:
   vmImage: ubuntu-latest
 strategy:
